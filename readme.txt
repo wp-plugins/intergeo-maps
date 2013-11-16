@@ -74,3 +74,12 @@ Also users can create a map from library page. To do it just click on **Add New*
 
 1. Upload the files to the `/wp-content/plugins/intergeo/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
+
+== Screenshots ==
+
+1. Directions layer
+2. Wather and cloud layers
+3. Panaramio layer and styles settings
+4. Bicycling layer and gray styles
+5. Overlay settings
+6. Markers settings
