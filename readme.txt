@@ -1,9 +1,9 @@
 === Intergeo Maps ===
 Contributors: madpixels, straightforward
-Donate link:
+Donate link: http://goo.gl/yPV7X7
 Tags: google maps, maps, map, map markers, google, google map, maps api, wp maps, wp google maps, easy map, embed, marker, placemark, icon, geocode, shortcode, custom post type, multisite, marker clustering
 Requires at least: 3.5
-Tested up to: 3.7.1
+Tested up to: 3.8
 Stable tag: 1.0.0
 License: GPL v2.0 or later
 License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -74,6 +74,27 @@ Also users can create a map from library page. To do it just click on **Add New*
 
 1. Upload the files to the `/wp-content/plugins/intergeo/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
+
+
+== Frequently Asked Questions ==
+
+= How to override map settings =
+
+To override map settings you can use your own hook. Just add **hook** attribute to your shortcode like this:
+
+`[intergeo hook="my_custom_intergeo_hook" ...]...[/intergeo]`
+
+And add a function to hook that filter:
+
+`add_filter( 'my_custom_intergeo_hook', 'filter_intergeo_map_settings' ) {
+function filter_intergeo_map_settings( $options ) {
+    // update options
+    $options[...] = ...;
+    ...
+
+    // return updated options
+    return $options;
+}`
 
 == Screenshots ==
 
