@@ -1,6 +1,5 @@
 === Intergeo Maps ===
-Contributors: madpixels
-Donate link: http://goo.gl/yPV7X7
+Contributors: themeisle
 Tags: google maps, maps, map, map markers, google, google map, maps api, wp maps, wp google maps, easy map, embed, marker, placemark, icon, geocode, shortcode, custom post type, multisite, marker clustering
 Requires at least: 3.5
 Tested up to: 3.9.1
