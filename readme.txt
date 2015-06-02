@@ -37,10 +37,10 @@ Sets width of the map container. Accepts all valid CSS values as css width prope
 Sets width of the map container. Accepts all valid CSS values as css height property accepts. For example, the value could be set in pixels like 700px. Default value is 300px.
 
 **Style**
-This attribute allows users to set extra styles for map's container element. It accepts all valid css properties and will echo it in the style attribute of the container element. Default value is empty.
+This attribute allows users to set extra styles for Google map's container element. It accepts all valid css properties and will echo it in the style attribute of the container element. Default value is empty.
 
 **Zoom**
-Sets the initial zoom level of the map. This attribute acceps integer value from 0 to 19, where 0 is the biggest distance and 19 is the lowest distance to the ground. The default value is 5.
+Sets the initial zoom level of the map. This attribute accepts integer value from 0 to 19, where 0 is the biggest distance and 19 is the lowest distance to the ground. The default value is 5.
 
 **Hook**
 This attribute allows users to setup their own filter, which will be used to filter settings of a map before using it to render a map. Hooks for the filter will receive one parameter which will be array of options and they have to return it modified or not.
@@ -63,9 +63,9 @@ Another way to create map is to use UI builder. This is more recommended way to 
 
 ### Using maps library ###
 
-All maps which have been created with UI builder are stored in WordPress database. The plugin allows to browse and manage these maps in the maps library. To see it go to the **Media** » **Intergeo Maps** page to see all maps which have been created in your website.
+All maps which have been created with UI builder are stored in WordPress database. The plugin allows to browse and manage these Google maps in the maps library. To see it go to the **Media** » **Intergeo Maps** page to see all maps which have been created in your website.
 
-The library shows you maps preview as you will see it at front end pages. Here users can copy shortcode of a map, edit or clone maps, and delete unnecessary or deprecated maps. 
+The library shows you maps preview as you will see it at front end pages. Here users can copy shortcode of a Google map, edit or clone maps, and delete unnecessary or deprecated maps. 
 
 Also users can create a Google map from library page. To do it just click on **Add New** button next to the page title and UI builder popup immediately appears. The builder interacts in the same way as it does at edit posts page, except that popup doesn't insert shortcode into somewhere, popup just save a map into database for future reuse.
 
@@ -77,7 +77,7 @@ Also users can create a Google map from library page. To do it just click on **A
 
 == Frequently Asked Questions ==
 
-= How to override map settings =
+= How to override Google map settings =
 
 To override Google map settings you can use your own hook. Just add **hook** attribute to your shortcode like this:
 
@@ -97,8 +97,8 @@ function filter_intergeo_map_settings( $options ) {
 
 == Screenshots ==
 
-1. Directions layer
-2. Wather and cloud layers
+1. Directions Google Maps layer
+2. Wather and cloud Google Maps layers
 3. Panaramio layer and styles settings
 4. Bicycling layer and gray styles
 5. Overlay settings
