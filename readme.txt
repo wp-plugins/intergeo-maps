@@ -1,17 +1,17 @@
-=== Intergeo Maps ===
-Contributors: themeisle
-Tags: google maps, maps, map, map markers, google, google map, maps api, wp maps, wp google maps, easy map, embed, marker, placemark, icon, geocode, shortcode, custom post type, multisite, marker clustering
+=== Intergeo Maps - Google Maps Plugin ===
+Contributors: codeinwp,marius2012,marius_codeinwp,hardeepasrani,themeisle,Madalin_ThemeIsle
+Tags:  directions, easy map, google, google map, google map plugin, google maps, latitude, location, longitude, map, map directions, map markers, map plugin, map widget, maps, marker, polygons, polylines, routes, store locator, streetview, wp google map, wp google maps, wp maps,plugin,admin,widget,shortcode,google maps, maps, map, map markers, google, google map, maps api, wp maps, wp google maps, easy map, embed, marker, placemark, icon, geocode, shortcode, custom post type, multisite, marker clustering
 Requires at least: 3.5
-Tested up to: 3.9.1
+Tested up to: 4.2.2
 Stable tag: 1.0.0
 License: GPL v2.0 or later
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
-A simple, easy and quite powerful tool to create, manage and embed Google Maps into your WordPress posts and pages.
+A simple, easy and quite powerful Google Map tool to create, manage and embed custom Google Maps into your WordPress posts and pages.
 
 == Description ==
 
-The Intergeo plugin is a simple, easy and in the same time quite powerful tool for handling Google Maps in your website. The plugin allows users to create new maps by using powerful UI builder. Created maps could be easily edited and saved with new settings. To increase the speed of creation process the plugin has ability to clone a map with all it's settings. Finally the plugin has attractive library which allows users to browse all maps in the system and delete unnecessary maps.
+The Intergeo Google Map plugin is a simple, easy and in the same time quite powerful tool for handling Google Maps in your website. The plugin allows users to create new maps by using powerful UI builder. Created maps could be easily edited and saved with new settings. To increase the speed of creation process the plugin has ability to clone a map with all it's settings. Finally the plugin has attractive library which allows users to browse all maps in the system and delete unnecessary maps.
 
 The powerful UI builder allows users to:
 
@@ -22,7 +22,7 @@ The powerful UI builder allows users to:
 * Create directions routes from A address to B address;
 * Integrate AdSense service into your maps and earn money by displaying ads on maps.
 
-### Create map with shortcode ###
+### Create Google map with shortcode ###
 
 To create new maps you just can input simple shortcode into your post, page, text widget or taxonomy description:
 
@@ -51,7 +51,7 @@ So your shortcode could looks like this one:
 
 ### Create map with UI builder ###
 
-Another way to create map is to use UI builder. This is more recommended way to build a map as this way provides much more features and wide range of settings to customize. To create a map with UI builder, pass following steps:
+Another way to create map is to use UI builder. This is more recommended way to build a Google map as this way provides much more features and wide range of settings to customize. To create a map with UI builder, pass following steps:
 
 1. Create a new post or a page, or just edit existing one;
 1. Place the mouse cursor into the content editor, at the place you want to embed a map and click on **Add Media** button above editor toolbar;
@@ -67,7 +67,7 @@ All maps which have been created with UI builder are stored in WordPress databas
 
 The library shows you maps preview as you will see it at front end pages. Here users can copy shortcode of a map, edit or clone maps, and delete unnecessary or deprecated maps. 
 
-Also users can create a map from library page. To do it just click on **Add New** button next to the page title and UI builder popup immediately appears. The builder interacts in the same way as it does at edit posts page, except that popup doesn't insert shortcode into somewhere, popup just save a map into database for future reuse.
+Also users can create a Google map from library page. To do it just click on **Add New** button next to the page title and UI builder popup immediately appears. The builder interacts in the same way as it does at edit posts page, except that popup doesn't insert shortcode into somewhere, popup just save a map into database for future reuse.
 
 == Installation ==
 
@@ -79,7 +79,7 @@ Also users can create a map from library page. To do it just click on **Add New*
 
 = How to override map settings =
 
-To override map settings you can use your own hook. Just add **hook** attribute to your shortcode like this:
+To override Google map settings you can use your own hook. Just add **hook** attribute to your shortcode like this:
 
 `[intergeo hook="my_custom_intergeo_hook" ...]...[/intergeo]`
 
